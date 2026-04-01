@@ -13,6 +13,13 @@ Weather API → Azure Data Factory → Azure Databricks → Delta Lake (Bronze, 
 - Unity Catalog
 - Power BI
 
+## Execution Environment
+This project is designed to run on Azure Databricks.
+
+- Uses dbutils for file system operations and file management  
+- Secrets are managed via Databricks Secret Scopes (integrated with Azure Key Vault)  
+- Originally developed in Databricks notebooks and refactored into Python scripts for better version control and project organization
+
 ## Pipeline Design
 
 ### Bronze Layer

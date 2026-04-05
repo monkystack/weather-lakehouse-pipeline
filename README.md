@@ -36,6 +36,7 @@ This project is designed to run on Azure Databricks.
 - Optimize data for Power BI usage
 
 ## Project Structure
+```
 weather-azure-databricks-lakehouse-pipeline/
 ├── aggregation/
 │   ├── weather_aggregated.py
@@ -49,6 +50,7 @@ weather-azure-databricks-lakehouse-pipeline/
 ├── includes/
 │   ├── common_functions.py
 │   └── configuration.py
+```
 
 ## Output
 - Analytics-ready dataset

@@ -39,17 +39,17 @@ This project is designed to run on Azure Databricks.
 ```
 weather-azure-databricks-lakehouse-pipeline/
 ├── aggregation/
-│   ├── weather_aggregated.py
+│   └── weather_aggregated.py
 │
 ├── ingestion/
-│   ├── api_call.py
+│   └── api_call.py
 │
 ├── transformation/
-│   ├── weather_processed.py
+│   └── weather_processed.py
 │
-├── includes/
-│   ├── common_functions.py
-│   └── configuration.py
+└── includes/
+    ├── common_functions.py
+    └── configuration.py
 ```
 
 ## Output

@@ -1,5 +1,7 @@
 ![cover](./cover_image.png)
 
+<br>
+
 # Weather Data Lakehouse Pipeline on Azure
 
 ## Overview
